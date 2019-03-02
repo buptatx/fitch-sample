@@ -119,3 +119,7 @@ dmypy.json
 # DSStore
 .DS_Store
 
+# project
+reports/
+log/
+runtime_pic/
