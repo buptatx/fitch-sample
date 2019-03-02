@@ -13,7 +13,11 @@ git clone https://github.com/williamfzc/fitch-sample.git
 cd fitch-sample
 ```
 
+确保你的adb可用，且已经连接上android设备。
+
 ### 正常方式
+
+在 `framework/config.py` 更新你的设备ID。之后运行：
 
 ```shell
 pip install -r requirements.txt
