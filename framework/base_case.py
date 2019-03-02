@@ -33,6 +33,9 @@ class BaseTestCase(FTestCase):
         """
 
         self.f_init_store('global')
+
+        # 对于一些拓展操作，可以通过toolkit处理，由pyatool支持
+        # 参考 https://github.com/williamfzc/pyatool
         self.f_device.toolkit.input_key_event(self.KEY_CODE_HOME)
         time.sleep(0.5)
         self.f_device.toolkit.input_key_event(self.KEY_CODE_RECENT)

@@ -33,3 +33,11 @@ docker run --rm \
     -v `pwd`:/usr/src/app \
     williamfzc/fitch
 ```
+
+如果你需要更加细致的设备管理，可以通过 `--device`：
+
+```shell
+--device /dev/bus/usb/001:/dev/bus/usb/001:rwm
+```
+
+在实际项目中的应用可以参照 [doringland/ud4d](https://github.com/doringland/ud4d)。
