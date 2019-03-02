@@ -2,6 +2,8 @@
 
 这是一个用于描述如何使用 [fitch](https://github.com/williamfzc/fitch) 的示例工程。
 
+代码中已经做了较为详细的注释，建议直接进[代码](entry.py)看。
+
 ## 使用
 
 **只支持python3。**
