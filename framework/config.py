@@ -14,3 +14,8 @@ PIC_DIR = os.path.join(PROJECT_PATH, 'pics')
 
 # 用例运行期间的截图保存位置
 RUNTIME_PIC_DIR = os.path.join(PROJECT_PATH, 'runtime_pic')
+
+# 如果你的用例遇到不知名的问题，可以在此处把这几个log开关打开
+# from loguru import logger
+# logger.enable('pyminitouch')
+# logger.enable('fastcap')
